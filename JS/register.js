@@ -14,6 +14,7 @@ btnEmail.addEventListener("click", () => {
   myInfo();
 });
 
+// Function to check Prompt information and direct to email
 myInfo = () => {
   firstName = prompt("Enter Name");
   lastName = prompt("Enter Last Name");

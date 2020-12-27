@@ -74,3 +74,35 @@ li {
 .click-register button:hover {
   border: 1.2px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+  .register {
+    width: 90%;
+  }
+  /* Multiple Div Names as all same dimensions */
+  .register-header,
+  .register-information,
+  .click-register {
+    background-color: red;
+    width: 90%;
+  }
+  .register-header h1 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .register-information p,
+  li {
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .click-register p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .click-register button {
+    width: 80%;
+    margin: 2px auto;
+    font-size: 15px;
+  }
+}
