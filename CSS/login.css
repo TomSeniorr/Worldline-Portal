@@ -105,3 +105,37 @@
   text-decoration-color: lightskyblue;
   text-underline-position: under;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .sign-in {
+    width: 90%;
+  }
+  .header,
+  .inputs,
+  .worldline-image,
+  .register {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .header h1 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .worldline-image img {
+    width: 90px;
+    height: 40px;
+  }
+  .inputs input {
+    width: 90%;
+  }
+  .log-in {
+    width: 90%;
+    height: 40px;
+  }
+  .register a {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+}
