@@ -11,18 +11,5 @@ backButton.addEventListener("click", () => {
 });
 
 btnEmail.addEventListener("click", () => {
-  myInfo();
+  document.location = "mailto:tomsenior20@gmail.com";
 });
-
-// Function to check Prompt information and direct to email
-myInfo = () => {
-  firstName = prompt("Enter Name");
-  lastName = prompt("Enter Last Name");
-
-  if (firstName == "" && lastName == "") {
-    alert("Incorrect Detail");
-    return;
-  } else {
-    document.location = "mailto:tomsenior@gmail.com";
-  }
-};

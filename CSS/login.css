@@ -18,13 +18,13 @@
 }
 .header h1 {
   font-size: 35px;
-  font-weight: bold;
-  font-family: sans-serif;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   color: black;
   text-shadow: 10px solid white;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: black;
   text-underline-position: under;
 }
 /* Worldline logo Section */
@@ -58,19 +58,22 @@
   width: 300px;
   border-radius: 6px 1px 6px 1px;
   outline: none;
+  border: 1px solid black;
   cursor: text;
 }
 /* Sign In Button */
 .log-in {
-  width: 200px;
+  background-color: #669999;
+  width: 130px;
   height: 60px;
-  border-radius: 10px 5px 10px 5px;
+  border-radius: 10px;
   margin: 20px;
-  background-color: lightslategray;
+  opacity: 90%;
   outline: none;
   font-size: 18px;
   font-weight: 300;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
   color: black;
   text-shadow: 10px solid white;
   cursor: pointer;
@@ -96,7 +99,7 @@
   text-underline-position: under;
   font-size: 18px;
   font-weight: 300;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   color: black;
 }
@@ -131,8 +134,9 @@
     width: 90%;
   }
   .log-in {
-    width: 90%;
+    width: 30%;
     height: 40px;
+    font-size: 16px;
   }
   .register a {
     font-size: 10px;

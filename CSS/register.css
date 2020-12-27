@@ -17,9 +17,9 @@
   margin: 10px auto;
 }
 .register-header h1 {
-  font-size: 22px;
-  font-weight: 400;
-  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   text-decoration-color: red;
   text-decoration: underline;
@@ -38,9 +38,10 @@
 .register-information p,
 li {
   font-size: 22px;
-  font-weight: 400;
-  font-family: sans-serif;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
+  margin-top: 5px;
 }
 /* Click to Register Section */
 .click-register {
@@ -54,20 +55,21 @@ li {
 }
 .click-register p {
   font-size: 22px;
-  font-weight: 400;
-  font-family: sans-serif;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
 }
 .click-register button {
-  background-color: turquoise;
-  width: 50%;
-  height: 5vh;
-  border-radius: 2px 5px;
+  background-color: #669999;
+  width: 200px;
+  height: 47px;
+  border-radius: 10px;
+  opacity: 90%;
   outline: none;
   cursor: pointer;
-  font-size: 20px;
-  font-weight: 400;
-  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   margin-top: 20px;
 }
@@ -83,7 +85,6 @@ li {
   .register-header,
   .register-information,
   .click-register {
-    background-color: red;
     width: 90%;
   }
   .register-header h1 {
