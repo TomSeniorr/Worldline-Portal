@@ -1,0 +1,76 @@
+.register {
+  width: 60%;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+/* Header for the Page */
+.register-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 15vh;
+  margin: 10px auto;
+}
+.register-header h1 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-decoration-color: red;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+/* Registering information */
+.register-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30vh;
+  margin: 10px auto;
+}
+.register-information p,
+li {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+/* Click to Register Section */
+.click-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30vh;
+  margin: 10px auto;
+}
+.click-register p {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.click-register button {
+  background-color: turquoise;
+  width: 50%;
+  height: 5vh;
+  border-radius: 2px 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.click-register button:hover {
+  border: 1.2px solid black;
+}
