@@ -1,0 +1,93 @@
+.sign-in {
+  width: 60%;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+/* Header for the Page */
+.header {
+  width: 70%;
+  height: 20vh;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header h1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: black;
+  text-shadow: 10px solid white;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-position: under;
+}
+/* Input Section */
+.inputs {
+  width: 70%;
+  height: 50vh;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputs input {
+  text-align: center;
+  margin: 10px;
+  height: 30px;
+  width: 300px;
+  border-radius: 6px 1px 6px 1px;
+  outline: none;
+  cursor: text;
+}
+/* Sign In Button */
+.log-in {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px 5px 10px 5px;
+  margin: 20px;
+  background-color: lightslategray;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  text-shadow: 10px solid white;
+  cursor: pointer;
+}
+/* Register Section */
+.register {
+  width: 70%;
+  height: 15vh;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.register li {
+  list-style: none;
+}
+.register a {
+  margin: 30px;
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-position: under;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: black;
+}
+.register a:hover {
+  text-decoration: underline;
+  text-decoration-color: lightskyblue;
+  text-underline-position: under;
+}
