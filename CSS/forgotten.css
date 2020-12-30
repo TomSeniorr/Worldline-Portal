@@ -109,3 +109,53 @@
   color: rgb(238, 235, 235);
   text-shadow: 2px 2px 6px #3e4141;
 }
+/* Media Query  */
+@media only screen and (max-width: 600px) {
+  .password-section {
+    width: 90%;
+  }
+  .forgotten-header {
+    width: 90%;
+    height: 100px;
+    margin: 10px auto;
+  }
+  .forgotten-header h1,
+  .time {
+    font-size: 18px;
+    text-align: center;
+  }
+  .forgot-form {
+    width: 90%;
+    height: 65%;
+    margin: 5px auto;
+  }
+  .forgot-info {
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .forgot-form input {
+    width: 60%;
+    height: 20px;
+    margin: 15px auto;
+  }
+  .forgot-form input::placeholder {
+    font-size: 13px;
+  }
+  .submitDetails {
+    width: 60%;
+    height: 30px;
+    font-size: 16px;
+  }
+  .buttons {
+    flex-direction: column;
+    width: 90%;
+    height: 20%;
+  }
+  .backToLoginPage,
+  .backToRegister {
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
+  }
+}

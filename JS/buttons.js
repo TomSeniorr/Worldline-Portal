@@ -17,6 +17,3 @@ backtoLog.addEventListener("click", () => {
 toRegisterPage.addEventListener("click", () => {
   registerPage();
 });
-sub.addEventListener("click", () => {
-  alert("hello");
-});
