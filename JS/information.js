@@ -1,8 +1,14 @@
 // Declaring the Input boxes
-let email;
+let email1;
 let das;
 let dep;
 let loc;
+
+let ListOfEmails = [];
+let ListOfDasID = [];
+let DepartmentList = [];
+let LocationList = [];
+
 // Declaring the Button for the Submit
 let button = document.getElementById("submit");
 // Event Handler for the Button Above
@@ -21,8 +27,18 @@ getvalue = () => {
     alert("Please Fill out Required Fields");
     resetCredentials();
   } else {
-    console.log("welcome");
+    alert("Information Stored");
+    ListOfEmails.push(email);
+    ListOfDasID.push(das);
+    DepartmentList.push(dep);
+    LocationList.push(loc);
+    // Example of console.log the first index of each object
+    console.log(ListOfEmails[0]);
+    console.log(ListOfDasID[0]);
+    console.log(DepartmentList[0]);
+    console.log(LocationList[0]);
     resetCredentials();
+    return false;
   }
 };
 // Function for Resetting the Values of the input boxes
