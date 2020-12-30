@@ -1,3 +1,4 @@
+/* Main Section Div */
 .sign-in {
   width: 60%;
   height: 90vh;
@@ -68,7 +69,7 @@
   width: 200px;
   height: 90px;
   border-radius: 20px;
-  margin: 15px auto;
+  margin: 10px auto;
   outline: none;
   cursor: pointer;
   font-size: 18px;
@@ -76,74 +77,83 @@
   color: rgb(238, 235, 235);
   text-shadow: 2px 2px 6px #3e4141;
 }
-
+/* Adding an Active case to the log-in button */
 .log-in:active {
   border: 2px solid black;
 }
-/* Register Section */
+/* Register and Forgotten password Section */
 .register {
   width: 70%;
   height: 15vh;
   margin: 10px auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .register li {
-  list-style: none;
+  display: flex;
+  margin: auto;
 }
 .register a {
-  margin: 30px;
-  padding: 20px;
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
   font-weight: bold;
   font-family: "Ubuntu", sans-serif;
   letter-spacing: 1px;
   color: rgb(238, 235, 235);
   text-shadow: 2px 2px 6px #3e4141;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-color: white;
 }
+/* Adding On Hover effect to the register and forgotten button */
 .register a:hover {
   text-decoration: underline;
   text-decoration-color: lightskyblue;
   text-underline-position: under;
 }
-
-/* ---  Media Queries ---  */
+/* Media Query for the Screen size max of 600px and min 300px  */
 @media only screen and (max-width: 600px) {
   .sign-in {
     width: 90%;
   }
   /* Bundled all the Div classes as all same Elements */
   .header,
-  .inputs,
-  .worldline-image,
-  .register {
-    width: 90%;
+  .worldline-image {
+    width: 80%;
     margin: 10px auto;
   }
   .header h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 27px;
   }
   .worldline-image img {
-    width: 90px;
-    height: 40px;
+    display: flex;
+    width: 170px;
+    height: 30px;
+  }
+  .inputs {
+    height: 30vh;
+    justify-content: center;
   }
   .inputs input {
-    width: 90%;
+    width: 80%;
+    height: 40px;
   }
   .log-in {
-    width: 30%;
     height: 40px;
-    font-size: 16px;
+    width: 50%;
+    outline: none;
+  }
+  .register {
+    height: 20vh;
+    flex-direction: column;
+  }
+  .register li {
+    margin: auto;
+    flex-direction: column;
   }
   .register a {
-    font-size: 10px;
-    padding: 5px;
-    margin: 5px;
+    font-size: 16px;
+    text-align: center;
   }
 }

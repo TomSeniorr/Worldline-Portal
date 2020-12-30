@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Made by Tom Senior" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forgotten Password</title>
+    <link rel="stylesheet" href="/CSS/Default.css" />
+    <link rel="stylesheet" href="/CSS/forgotten.css" />
+  </head>
+  <body onload="time()">
+    <section class="password-section">
+      <!-- Forgotten Header -->
+      <div class="forgotten-header">
+        <h1>Forgotten Password?</h1>
+        <p class="time" id="time">time</p>
+      </div>
+      <!-- Forgotten Form Section -->
+      <div class="forgot-form">
+        <p class="forgot-info">
+          Fill out the following fields then click to send via email to the
+          owner. You will then get sent an encrypted password sent back to your
+          email address to change on loging in with it for the fist Time. Make
+          sure you use your work email address to send the email or else it will
+          not be accepted
+        </p>
+        <!-- Input Fields -->
+        <input type="email" placeholder="Enter Email" required />
+        <input type="text" placeholder="Enter DAS" required />
+        <input type="text" placeholder="Enter Department" required />
+        <input type="text" placeholder="Enter Location" required />
+        <!-- Submit form Data -->
+        <button class="submitDetails">Submit Details</button>
+      </div>
+      <!-- Linking other Pages to the alternative Pages -->
+      <div class="buttons">
+        <button type="submit" class="backToLoginPage">Back To Log In</button>
+        <button type="submit" class="backToRegister">Back To Register</button>
+      </div>
+    </section>
+    <script src="/JS/time.js"></script>
+    <script src="/JS/buttons.js"></script>
+  </body>
+</html>

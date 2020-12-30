@@ -1,0 +1,111 @@
+/* Overall Div Section */
+.password-section {
+  width: 60%;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: #636363;
+  display: flex;
+  flex-direction: column;
+}
+/* Page Header */
+.forgotten-header {
+  width: 80%;
+  height: 20vh;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forgotten-header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(238, 235, 235);
+  text-shadow: 2px 2px 6px #3e4141;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: white;
+}
+/* Local Time Styling */
+.time {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(238, 235, 235);
+  text-shadow: 2px 2px 6px #3e4141;
+}
+/* Contact Form Section */
+.forgot-form {
+  width: 80%;
+  height: 50vh;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.forgot-info {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 1px;
+  color: rgb(238, 235, 235);
+  text-shadow: 2px 2px 6px #3e4141;
+}
+/* Filling out Input Fields */
+.forgot-form input {
+  position: relative;
+  width: 70%;
+  height: 4vh;
+  margin: 10px auto;
+  text-align: center;
+}
+.forgot-form input::placeholder {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+/* Submit Form Details */
+.submitDetails {
+  background-color: #1aa9d4;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px auto;
+  font-size: 18px;
+  border: none;
+  color: rgb(238, 235, 235);
+  text-shadow: 2px 2px 6px #3e4141;
+}
+/* Linking to other pages Buttons  */
+.buttons {
+  width: 80%;
+  height: 20vh;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.backToLoginPage,
+.backToRegister {
+  background-color: #1aa9d4;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  color: rgb(238, 235, 235);
+  text-shadow: 2px 2px 6px #3e4141;
+}

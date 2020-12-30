@@ -33,82 +33,77 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  height: 30vh;
+  width: 80%;
+  height: 27vh;
   margin: 10px auto;
 }
 .register-information p,
 li {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   font-family: "Ubuntu", sans-serif;
   color: rgb(238, 235, 235);
   text-shadow: 2px 2px 6px #3e4141;
   letter-spacing: 1px;
-  margin-top: 5px;
+  text-align: center;
+  margin-top: 4px;
 }
-/* Click to Register Section */
+/* Register and Forgotten password Div */
 .click-register {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   height: 30vh;
-  margin: 10px auto;
+  margin: 5px auto;
 }
-.click-register p {
-  font-size: 22px;
-  font-weight: 600;
-  font-family: "Ubuntu", sans-serif;
-  letter-spacing: 1px;
-  color: rgb(238, 235, 235);
-  text-shadow: 2px 2px 6px #3e4141;
-}
-.click-register button {
+.sendEmail,
+.backToLoginPage {
   background-color: #1aa9d4;
   width: 200px;
-  height: 90px;
+  height: 50px;
   border-radius: 20px;
-  margin: 15px auto;
   outline: none;
   cursor: pointer;
+  margin: 10px;
   font-size: 18px;
   border: none;
   color: rgb(238, 235, 235);
   text-shadow: 2px 2px 6px #3e4141;
 }
-.click-register button:active {
+/* Adding an active Case to the button */
+.btn-back:active,
+.btn-email:active {
   border: 2px solid black;
 }
-
+/* Media Query for the Screen size max of 600px and min 300px  */
 @media only screen and (max-width: 600px) {
   .register {
     width: 90%;
   }
   /* Multiple Div Names as all same dimensions */
   .register-header,
-  .register-information,
-  .click-register {
-    width: 90%;
+  .register-information {
+    width: 80%;
   }
   .register-header h1 {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
   }
   .register-information p,
   li {
-    margin: 5px;
+    margin: 2px;
     font-size: 14px;
     text-align: center;
   }
-  .click-register p {
-    font-size: 15px;
-    text-align: center;
-  }
-  .click-register button {
+  .click-register {
     width: 80%;
-    margin: 2px auto;
-    font-size: 15px;
+    flex-direction: column;
+  }
+  .sendEmail,
+  .backToLoginPage {
+    width: 80%;
+    font-size: 16px;
   }
 }
