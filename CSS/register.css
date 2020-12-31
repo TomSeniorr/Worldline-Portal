@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 27vh;
+  height: 40vh;
   margin: 10px auto;
 }
 .register-information p,
@@ -55,10 +55,10 @@ li {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 30vh;
+  height: 20vh;
   margin: 5px auto;
 }
-.sendEmail,
+.toPassword,
 .backToLoginPage {
   background-color: #1aa9d4;
   width: 200px;
@@ -73,8 +73,8 @@ li {
   text-shadow: 2px 2px 6px #3e4141;
 }
 /* Adding an active Case to the button */
-.btn-back:active,
-.btn-email:active {
+.backToLoginPage:active,
+.toPassword:active {
   border: 2px solid black;
 }
 /* Media Query for the Screen size max of 600px and min 300px  */
@@ -101,7 +101,7 @@ li {
     width: 80%;
     flex-direction: column;
   }
-  .sendEmail,
+  .toPassword,
   .backToLoginPage {
     width: 80%;
     font-size: 16px;

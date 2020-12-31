@@ -10,7 +10,7 @@
 }
 /* Page Header */
 .forgotten-header {
-  width: 80%;
+  width: 90%;
   height: 20vh;
   margin: 15px auto;
   display: flex;
@@ -41,11 +41,12 @@
 }
 /* Contact Form Section */
 .forgot-form {
-  width: 80%;
-  height: 50vh;
+  width: 90%;
+  height: 20vh;
   margin: 10px auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .forgot-info {
   text-align: center;
@@ -57,29 +58,24 @@
   color: rgb(238, 235, 235);
   text-shadow: 2px 2px 6px #3e4141;
 }
-/* Filling out Input Fields */
-.forgot-form input {
-  position: relative;
-  width: 70%;
-  height: 4vh;
+/* Contact Super User Button */
+.email-button {
+  width: 90%;
+  height: 15vh;
   margin: 10px auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.forgot-form input::placeholder {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  color: black;
-}
-/* Submit Form Details */
-.submitDetails {
+.superuser {
   background-color: #1aa9d4;
   width: 200px;
   height: 50px;
   border-radius: 20px;
   outline: none;
   cursor: pointer;
-  margin: 10px auto;
+  margin: 10px;
   font-size: 18px;
   border: none;
   color: rgb(238, 235, 235);
@@ -87,7 +83,7 @@
 }
 /* Linking to other pages Buttons  */
 .buttons {
-  width: 80%;
+  width: 90%;
   height: 20vh;
   margin: 15px auto;
   display: flex;
@@ -95,8 +91,8 @@
   justify-content: center;
   align-items: center;
 }
-.backToLoginPage,
-.backToRegister {
+.backToLoginPage1,
+.backToRegister1 {
   background-color: #1aa9d4;
   width: 200px;
   height: 50px;
@@ -116,46 +112,27 @@
   }
   .forgotten-header {
     width: 90%;
-    height: 100px;
     margin: 10px auto;
   }
   .forgotten-header h1,
   .time {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
   .forgot-form {
     width: 90%;
-    height: 65%;
     margin: 5px auto;
   }
   .forgot-info {
-    font-size: 15px;
-    margin: 5px;
-    padding: 5px;
-  }
-  .forgot-form input {
-    width: 60%;
-    height: 20px;
-    margin: 15px auto;
-  }
-  .forgot-form input::placeholder {
     font-size: 13px;
-  }
-  .submitDetails {
-    width: 60%;
-    height: 30px;
-    font-size: 16px;
   }
   .buttons {
     flex-direction: column;
     width: 90%;
-    height: 20%;
   }
-  .backToLoginPage,
-  .backToRegister {
+  .backToLoginPage1,
+  .backToRegister1 {
     width: 60%;
-    height: 30px;
     font-size: 15px;
   }
 }
