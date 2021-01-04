@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+g<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,14 +26,21 @@
       </div>
       <!-- Inputs for the Page -->
       <div class="inputs">
-        <input class="email" type="email" placeholder="Enter Email" required />
         <input
+          id="email"
+          class="email"
+          type="email"
+          placeholder="Enter Email"
+          required
+        />
+        <input
+          id="password"
           class="password"
           type="password"
           placeholder="Enter Password"
           required
         />
-        <button type="submit" class="log-in">Sign In</button>
+        <button type="submit" id="signin" class="log-in">Sign In</button>
       </div>
       <!-- Register Section for the Page -->
       <div class="register">
@@ -44,5 +51,6 @@
       </div>
     </section>
     <!-- Link for the signin Section -->
+    <script src="/JS/validation.js"></script>
   </body>
 </html>
